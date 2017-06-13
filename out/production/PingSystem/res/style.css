@@ -1,0 +1,27 @@
+.Menu{
+    -fx-text-fill:red;
+	-fx-font-size:20px;
+}
+.Point{
+    -fx-font-size:15px;
+}
+.imitation:hover{
+    -fx-background-color:black;
+    -fx-text-fill:white;
+}
+.prompt{
+    -fx-prompt-text-fill:rgb(175,175,175);
+}
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        -fx-accent 0%,
+        -fx-accent 49%,
+        derive(-fx-accent, 30%) 50%,
+        derive(-fx-accent, 30%) 99%
+    );
+}
+.progress-bar > .track {
+  -fx-text-box-border: black;
+}
